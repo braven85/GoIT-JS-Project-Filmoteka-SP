@@ -1,0 +1,164 @@
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .library{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.56),rgba(0, 0, 0, 0.56)),
+      url(../images/header_lib_mobile@2x.png);
+      height: 230px;
+    }
+  }
+  .library{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.56),rgba(0, 0, 0, 0.56)),
+      url(../images/header_lib_mobile.png);
+      height: 230px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-right: 20px;
+      padding-left: 21px;
+  
+      &__icon{
+        margin-top: 46px;
+      }
+      &__name{
+        color: transparent;
+        display: inline-block;
+      }
+      &__navigation{
+        display: inline-block;
+        justify-content: center;
+      }
+      &__navigation-list{
+        list-style: none;
+        align-items: center;
+        display: flex;
+      }
+      &__navigation-item--lastchild{
+        margin-left: 30px;
+        border-bottom: 3px solid $details-color;
+      }
+      &__navigation-link{
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      display: flex;
+      text-align: center;
+      text-transform: uppercase;
+      color: $main-color;
+      width: 100%;
+      height: 14px;
+      display: flex;
+      text-decoration: none;
+      }
+      &__button-list{
+      display: flex;
+      list-style: none;
+      }
+      &__button{
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+      color: $main-color;
+      padding: 14px 36px 12px 36px;
+      max-width: 129.53px;
+      height: 44px;
+      background: transparent;
+      border: 1px solid $main-color;
+      box-sizing: border-box;
+      border-radius: 5px;
+      margin-top: 49px;
+
+      &:hover,
+      &:focus{
+        cursor: pointer;
+        background: #FF6B01;
+        border: transparent;
+      }
+      }
+      &__button--last-child{
+        margin-left: 30px;
+      }
+  }
+
+@media screen and (min-width: 480px){
+  .library{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.56),rgba(0, 0, 0, 0.56)),
+      url(../images/header_lib_tablet.png);
+      height: 230px;
+      padding-left: 71px;
+      padding-right: 70px;
+  
+    &__name{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    text-align: center;
+    color: $main-color;
+    margin-right: 30px;
+    }
+    &__button--first-child{
+      margin-left: 35px;
+    }
+  }
+}
+@media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        .library {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.56),rgba(0, 0, 0, 0.56)),
+      url(../images/header_lib_tablet@2x.png);
+    }
+  }
+
+@media screen and (min-width: 768px){
+  .library__name{
+   margin-right: 304px;
+  }
+  .library__navigation-item--lastchild{
+    margin-left: 39px;
+  }
+  .library__button{
+  max-width: 136px;
+  height: 44px;
+  padding: 14px 38px 12px 38px; 
+  }
+  .library__button--first-child{
+    margin-left: 170px;
+  }
+  .library__button--last-child{
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .library{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.56),rgba(0, 0, 0, 0.56)),
+      url(../images/header_lib_desktop.png);
+      padding-left: 71px;
+      padding-right: 71px;
+  &__name{
+    margin-right: 564px
+  }
+  &__button--first-child{
+    margin-left: 298px;
+  }
+}
+}
+@media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        .library {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.56),rgba(0, 0, 0, 0.56)),
+      url(../images/header_lib_desktop@2x.png);
+    }
+  }

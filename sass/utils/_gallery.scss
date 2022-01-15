@@ -1,0 +1,24 @@
+.gallery {
+  margin: 20px auto 40px auto;
+  max-width: 280px;
+  grid-row-gap: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .gallery {
+  display: grid;
+  grid-template-columns: auto auto;
+   margin: 50px auto 60px auto;
+  max-width: 616px;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+  .gallery {
+    display: grid;
+  margin: 60px auto 50px auto;
+  grid-template-columns: auto auto auto;
+  max-width: 882px;
+}
+}

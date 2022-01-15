@@ -1,0 +1,26 @@
+{
+  "name": "goit-js-project-filmoteka-sp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braven85/GoIT-JS-Project-Filmoteka-SP.git"
+  },
+  "keywords": [],
+  "author": "GoIT Students",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/braven85/GoIT-JS-Project-Filmoteka-SP/issues"
+  },
+  "homepage": "https://braven85.github.io/GoIT-JS-Project-Filmoteka-SP/",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
